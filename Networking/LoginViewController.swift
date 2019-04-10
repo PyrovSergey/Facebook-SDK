@@ -41,7 +41,6 @@ class LoginViewController: UIViewController {
     }
 }
 
-
 extension LoginViewController: FBSDKLoginButtonDelegate {
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
